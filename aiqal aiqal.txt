@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<title>Aiqal Imran</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("med.jpeg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-orange">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-orange">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-orange">BIODATA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-orange">EXPERIENCE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#education" class="w3-button w3-block w3-orange">EDUCATION</a>
+    </div>
+     <div class="w3-col s3">
+      <a href="#family" class="w3-button w3-block w3-orange">FAMILY</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#gallery" class="w3-button w3-block w3-orange">GALLERY</a>
+    </div>
+     <div class="w3-col s3">
+      <a href="#other" class="w3-button w3-block w3-orange">OTHER</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <marquee><h1 style="color:red;">MUHAMMAD AIQAL IMRAN BIN ROSLAN</h1></marquee>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:80px">MY<br>STORY<br>LIFE</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">25 August 2001</span>
+  </div>
+</header>
+
+
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+    <p><strong>My name is Muhammad Aiqal Imran Bin Roslan. My age is 20 years old. I am a  diploma student at Universiti Teknologi Mara (UiTM majoring in information management and now it is my last semester in college, My hobby is to play badminton in my free time with friends and to watch Korean dramas at night. While watching Korean dramas, I was able to learn the uniqueness and traditions and conversations of communities abroad that are very different than in Malaysia.When the COVID-19 virus spread and Malaysians faced PKP, I started and learned about an online business to sell food online.</p>
+    <p><strong>In addition, my ambition is to be a successful entrepreneur when I grow up. I sincerely hope to be a successful founder and be able to provide employment opportunities to the public as well as be able to help those in need.I live in Kampung Bukit Jambul, Pendang Kedah.I love learning new things and make some innovations.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"You need to stop trying to change who you are and just make who you are better for your future."</i></p>
+      <p>This is a little story about my life</p>
+    </div>
+    <img src="aiqal canchy.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>My Life Principle:</strong> "Never lost hope, because it is the key to achieve all your dreams."</p>
+    <p><strong>My Mission:</strong> creating more successful entrepreneurs among the Malays</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">EXPERIENCE</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'In Secondary School');" id="myLink">
+        <div class="w3-col s6 tablink">In Secondary School</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'In Diploma Life');">
+        <div class="w3-col s6 tablink">In Diploma Life</div>
+      </a>
+    </div>
+
+    <div id="In Secondary School" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Happy Moment</h5>
+      <p class="w3-text-grey">Able to take the stage to take prizes as an excellent student of the Spm and Pt3 exams</p><br>
+    
+      <h5>Embrassing Moment</h5>
+      <p class="w3-text-grey">Once embarrassed to be fined for being noisy and called by teachers while at assemblies and in front of other students.</p><br>
+    
+      <h5>Love Story</h5>
+      <p class="w3-text-grey">Ever had a senior crush and was afraid to confess to him</p><br>
+    
+      <h5>Achievement</h5>
+      <p class="w3-text-grey">3 years as a school representative in the Hafazan Al-Quran competition</p><br>
+    
+      <h5>Rank in school</h5>
+      <p class="w3-text-grey">Became a school prefect for 5 years and became the chairman of the Computer Club in the Secondary School</p>
+    </div>
+
+    <div id="In Diploma Life" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Happy Moment</h5>
+      <p class="w3-text-grey">Get friends who have similar hobbies</p><br>
+    
+      <h5>Embrassing Moment</h5>
+      <p class="w3-text-grey">Falling down while buying food in cafes and in front of many people</p><br>
+    
+      <h5>Love Story</h5>
+      <p class="w3-text-grey">Ever fallen in love with a senior and had a relationship during semester 1 to semester 2</p><br>
+    
+      <h5>Job Experience</h5>
+      <p class="w3-text-grey">Now work part time at Masmed Uitm Kedah by working as a spaghetti and nachos maker</p><br>
+    
+      <h5>Achievement</h5>
+      <p class="w3-text-grey">Became the Spiritual Exco at the Informa Club in Uitm Kedah, had a medal when winning a petanque competition between colleges and recently participated in a badminton competition and got third place</p>
+    </div>  
+      <marquee><h1 style="color:black;">Petanque Team</h1></marquee>
+      <img src="petanque.jpg" width="700px" height="600px">
+      <marquee><h1 style="color:red;">Classmate in Form 5</h1></marquee>
+      <img src="form5.jpeg" width="700px" height="600px">
+      <marquee><h1 style="color:red;">Classmate in 10 years old</h1></marquee>
+      <img src="sk.jpeg" width="700px" height="600px">
+  </div>
+</div>
+   
+
+<!-- Education/Area Container -->
+<div class="w3-container" id="education" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">EDUCATION</span></h5>
+    <p><strong> Sekolah Kebangsaan Bukit Jambul : I went to primary school from 2008 to 2013. I was so active in sports while in primary school. My favorite sport is badminton. I also play takraw, football and others. In addition, I also got a position as a school prefect. I enjoyed my memories with my friends and teachers while I was there.</p>
+    <p><strong> Sekolah Menengah Kebangsaan Tunku Temenggung: In 2014 to 2018 I was in my high school. Unlike when in high school, I was only active in uniform clubs. I joined the school’s youth cadets and always attended camps organized by my school or others. In 2018 I took SPM there and that was my last year as a school student.</p>
+    <p><strong>Universiti Teknologi Mara: This is the best place because here I meet a lot of people who really give me some bittersweet memories. Starting from 2019 and will end my diploma life soon. I learned a lot of experience here. I do everything alone or just with my close friends. It really gave me some lessons in my life and gave me more confidence in doing everything myself.</p>
+    <img src="uitmdihatiku.jpg" width="700px" height="600px">
+    <img src="dewanperdana.jpeg" width="700px" height="500px"> 
+<!-- End page content -->
+</div>
+
+<!-- Family/Area Container -->
+<div class="w3-container" id="family" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">FAMILY</span></h5>
+  <marquee><h1 style="color:blue;">I am the only child in my family</h1></marquee>
+    <img src="family.jpeg" width="700px" height="500px"> 
+<!-- End page content -->
+</div>
+
+<!-- Gallery/Area Container -->
+<div class="w3-container" id="gallery" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">GALLERY</span></h5>
+    <p><strong> My Latest Photo In My Gallery Of 2021 </p>
+    <img src="kasuka.jpeg" width="700px" height="500px">
+    <img src="canchycanchy.jpeg" width="700px" height="500px">  
+    <img src="badminton.jpeg" width="700px" height="600px">  
+    <img src="class.jpeg" width="700px" height="600px">  
+<!-- End page content -->
+</div>
+
+<!-- Other/Area Container -->
+<div class="w3-container" id="other" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OTHER</span></h5>
+    <p><strong>CONTACT ME? PLEASE SEND MESSAGE TO ME NOW  </p>
+    <img src="aiqal imran.jpg" width="700px" height="700px">
+       <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Friends or family"People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2021-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+<!-- End page content -->
+</div>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
